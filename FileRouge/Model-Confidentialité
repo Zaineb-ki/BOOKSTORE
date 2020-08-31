@@ -1,0 +1,10 @@
+
+	Boutique
+			Affichage des produits -> getProduct() ;
+			Affichage des catégories -> getCategory() ;
+
+	Customers
+			S’inscrire -> createCustomers() ;
+			Se connecter -> authentifier() ;
+			Achat -> createOrders() ;
+			Mise à jour des données personnelle -> updateInfosCustomer() ;
