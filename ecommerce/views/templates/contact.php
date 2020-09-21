@@ -1,6 +1,3 @@
-<?php
-include("classinscription.php");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +55,6 @@ include("classinscription.php");
                       <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                       <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                     </ul>
-                    
                   </nav>
                 </div>
               </div>
@@ -96,12 +92,12 @@ include("classinscription.php");
                 <a class="nav-link" href="NousContacter.html">Contact Us</a>
               </li>
             </ul>
-            
             <div class="fonts-nav">
-                <a href="#"><i class="fas fa-search"></i></a>
-                <a href="#"><i class="fas fa-user"></i></a>
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              <a href="#"><i class="fas fa-search"></i></a>
+              <a href="#"><i class="fas fa-user"></i></a>
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
             </div>
+           
           </div>
         </nav>
        </div>
@@ -111,20 +107,19 @@ include("classinscription.php");
   <!-- End menu -->
 
 <!-- Part 1--> 
-<section class="part1-SC">
+<section class="part1-NousC">
     <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <center>
                     <div id="bar">
-                        <p>S'inscrire </p>
+                        <p>Nous Cantacter </p>
                     </div>
                 </center>
             </div>
         </div>
     </div>
 </section>
-
 
 
 <section class="part2-NousC">
@@ -134,10 +129,8 @@ include("classinscription.php");
                 <center>
                     <div class="h5-NousC">
                         <h5>
-                        Rejoignez votre en ligne BOOK STORE, et commencez un voyage littérature.
-                        En tant que client de BOOK STORE , vous avez la possibité de trouver vos livres préférer 
-                        avec des marques pages à votre choix, n'oublier pas le offres et le réduction 
-                        ,et tout ça avec un prix raisonnable.
+                            N'hésitez surtout pas à nous contacter si vous ne trouvez pas les réponses que vous cherchez ici dans 
+                            la section Service Client BOOK STORE. Nous serons ravis de vous répondre.
                         </h5>
                     </div>
                 </center>
@@ -145,48 +138,39 @@ include("classinscription.php");
         </div>
     </div>
 </section>
- <br> <br>
- 
+
 <section class="part3-NousC">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <img src="src\Images\img\Sans-nkl,kl1.png" alt="" srcset="">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="src\Images\img\4067830.png" alt="">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <center>
-            <p style="color: #0086C7; font-family:Josefin Sans, Regular Roman; font-size: 40px;">S'inscrire</p>
-            <form action="" method="post">
-                
-                <div class="form-group">
-                    <input name="username" type="text" class="form-control" id="exampleInputPassword1" placeholder="UserName">
-                </div>
-                <div class="form-group">
-                    <i class="fas fa-envelope"></i>
-                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                   
-                <div class="form-group">
-                    <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                
-                <button name="inscrire" type="submit" class="btn btn-primary">S'inscrire</button>
-                </form>
-                </center>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <p class="p-NousC">Veuillez remplir le formulaire ci-dessous si vous souhaitez nous envoyer 
+                    un email. Vous êtes également invités à nous envoyer votre question 
+                    directement à <strong>info@bookstore.fr</strong> .
+                    Nous vous répondrons dans les 24 heures.</p>
+                  
+                    <form>
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nom et prénom ">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email ">
+                        </div>
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre Numéro de téléphone ">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre Message" style="height: 150px;">
+                          </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="Envoyer-NousC">Envoyer</button>
+                      </form>
             </div>
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -233,7 +217,7 @@ include("classinscription.php");
       <div class="col">
           <center>
             <div class="fonts">
-              <a href="#"><i class="fab fa-facebook" style="color:  #173D7A;"></i></a>
+              <a href="#"><i class="fab fa-facebook" style="color: #173D7A;"></i></a>
               <a href="#"><i class="fab fa-pinterest" style="color: #FF0000;"></i></a>
               <a href="#"><i class="fab fa-instagram" style="color: #F7C248;"></i></a>
             </div>
@@ -245,78 +229,78 @@ include("classinscription.php");
 <br>
 <!-- Start footer -->
 <footer id="mu-footer">
-    <!-- start footer top -->
-    <div class="mu-footer-top">
-      <div class="container">
-        <div class="mu-footer-top-area">
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="mu-footer-widget">
-                <h5>QUI SOMMES-NOUS ?</h5>
+  <!-- start footer top -->
+  <div class="mu-footer-top">
+    <div class="container">
+      <div class="mu-footer-top-area">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="mu-footer-widget">
+              <h5>QUI SOMMES-NOUS ?</h5>
+              <ul>
+                  <li><a href="QuiSommeNous.html">A propos de BOOK STORE</a></li>
+                  
+                </ul>
+            </div>
+          </div>
+          <br>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="mu-footer-widget">
+              
+                <h5>AIDE</h5>
                 <ul>
-                    <li><a href="QuiSommeNous.html">A propos de BOOK STORE</a></li>
-                    
-                  </ul>
-              </div>
+                  <li><a href="ServiceClient.html">Service Client</a></li>
+                  <li><a href="NousContacter.html">Nous Contacter</a></li>
+                  
+                </ul>
+            
             </div>
-            <br>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="mu-footer-widget">
-                
-                  <h5>AIDE</h5>
-                  <ul>
-                    <li><a href="ServiceClient.html">Service Client</a></li>
-                    <li><a href="NousContacter.html">Nous Contacter</a></li>
-                    
-                  </ul>
+          </div>
+          <br>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="mu-footer-widget">
+                <h5>DECOUVREZ</h5>
+                <ul>
+                  <li><a href="#">Inscrivez-Vous</a></li>
+                  <li><a href="#">Nos Livres</a></li>
+                  <li><a href="#">Nos Accessoires</a></li>
+                  
+                </ul>
+            </div>
+          </div>
+         <br>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="mu-footer-widget">
+              <h5>COMMENT ACHETER 
+                DES PRODUITS</h5>
               
-              </div>
-            </div>
-            <br>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="mu-footer-widget">
-                  <h5>DECOUVREZ</h5>
-                  <ul>
-                    <li><a href="#">Inscrivez-Vous</a></li>
-                    <li><a href="#">Nos Livres</a></li>
-                    <li><a href="#">Nos Accessoires</a></li>
-                    
-                  </ul>
-              </div>
-            </div>
-           <br>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="mu-footer-widget">
-                <h5>COMMENT ACHETER 
-                  DES PRODUITS</h5>
-                
-                  <p>Nos produits sont vendus 
-                    exclusivement sur notre 
-                    store en ligne.
-                    <a href="#"><u>Inscrivez-vous</u></a> pour profiter 
-                    plusieurs offres </p>
-                     
-              
-              </div>
+                <p>Nos produits sont vendus 
+                  exclusivement sur notre 
+                  store en ligne.
+                  <a href="#"><u>Inscrivez-vous</u></a> pour profiter 
+                  plusieurs offres </p>
+                   
+            
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- end footer top -->
-    <!-- start footer bottom -->
-    <div class="mu-footer-bottom">
-      <div class="container">
-        <div class="mu-footer-bottom-area">
-          <p>&copy; Copyright 2020 |  BOOK STORE | Store en ligne  </p>
-        </div>
+  </div>
+  <!-- end footer top -->
+  <!-- start footer bottom -->
+  <div class="mu-footer-bottom">
+    <div class="container">
+      <div class="mu-footer-bottom-area">
+        <p>&copy; Copyright 2020 |  BOOK STORE | Store en ligne  </p>
       </div>
     </div>
-    <!-- end footer bottom -->
-  </footer>
-  <!-- End footer -->
-  
-  
-  
-  </body>
-  </html>
+  </div>
+  <!-- end footer bottom -->
+</footer>
+<!-- End footer -->
+
+
+
+</body>
+</html>

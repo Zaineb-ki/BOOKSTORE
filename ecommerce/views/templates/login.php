@@ -18,7 +18,7 @@ include('loginback.php');
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="shortcut icon" href="src\Images\Logo.png" type="image/x-icon">
 
         <!-- Font awesome --> 
         <script src="https://kit.fontawesome.com/a6cfec0f45.js" crossorigin="anonymous"></script>
@@ -43,7 +43,7 @@ include('loginback.php');
                 <div class="mu-header-top-left">
                   <div class="mu-top-email">
                     <i class="fas fa-envelope"></i>
-                    <span>info@bookstore.fr</span>
+                    <span>bookstorecompany1@gmail.com</span>
                   </div>
                   <div class="mu-top-phone">
                     <i class="fas fa-phone-alt"></i>
@@ -94,9 +94,6 @@ include('loginback.php');
                 <a class="nav-link" href="#">Accessoires</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Offres</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="NousContacter.html">Contact Us</a>
               </li>
             </ul>
@@ -121,7 +118,7 @@ include('loginback.php');
             <div class="col">
                 <center>
                     <div id="bar">
-                        <p>S'inscrire </p>
+                        <p>Connectez vous</p>
                     </div>
                 </center>
             </div>
@@ -130,25 +127,6 @@ include('loginback.php');
 </section>
 
 
-
-<section class="part2-NousC">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <center>
-                    <div class="h5-NousC">
-                        <h5>
-                        Rejoignez votre en ligne BOOK STORE, et commencez un voyage littérature.
-                        En tant que client de BOOK STORE , vous avez la possibité de trouver vos livres préférer 
-                        avec des marques pages à votre choix, n'oublier pas le offres et le réduction 
-                        ,et tout ça avec un prix raisonnable.
-                        </h5>
-                    </div>
-                </center>
-            </div>
-        </div>
-    </div>
-</section>
  <br> <br>
  
 <section class="part3-NousC">
@@ -159,15 +137,18 @@ include('loginback.php');
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <center>
-            <form action="" method="post">
+              <p style="color: #0086C7; font-family:Josefin Sans, Regular Roman; font-size: 40px;">Welcome Back ! </p>
+            <form action="" method="post" id="client-infos">
                 
                 <div class="form-group">
-                    <input name="mail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                   
-                <div class="form-group">
+                    <i class="fas fa-envelope" id="forms"></i>
+                    <input name="mail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" >
+                   <br> <br>
+                <div class="form-group" id="forms">
+                    <i class="fas fa-unlock-alt" id="forms"></i>
                     <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
-                
+                <br> <br>
                 <button name="login" type="submit" class="btn btn-primary">log in</button>
                 </form>
                 </center>

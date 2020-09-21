@@ -106,61 +106,24 @@
    </div>
   </section>
   <!-- End menu -->
-  <!-- Start Slides -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="src\Images\img\slides.png" class="d-block w-100" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <button class="btn-slide1">Découvrire Plus</button>
-              </div>
-              
+ 
+  <section class="part1-NousC">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <center>
+                    <div id="bar">
+                        <p> #Livres#Française </p>
+                    </div>
+                </center>
             </div>
-            <div class="carousel-item">
-              <img src="src\Images\img\slides2.png" class="d-block w-100" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <button class="btn-slide2">Découvrir Votre Ouvrage préféré</button>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="src\Images\img\slides3.png" class="d-block w-100" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <button class="btn-slide3">Voir Plus</button>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-      </div>
     </div>
-  </div>
-  <br> <br>
-  <!-- End Slides -->
-
-  <!-- Parte 1 "Les meilleur ventes"-->
+</section>
+  <!-- Parte 1 "lIVRES"-->
 
   <section class="part1">
     <div class="container">
-      <div class="row">
-        <div class="col">
-         <center>
-          <h1>
-            Les meilleur ventes
-          </h1>
-         </center>
-        </div>
-      </div>
-      <br> <br>
       <div class="row" id="Cards">
        
  

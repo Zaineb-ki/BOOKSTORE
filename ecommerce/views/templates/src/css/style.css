@@ -712,3 +712,30 @@ Nous Contacter
     flex-direction: column-reverse;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Login & singin */
+
+#forms {
+  display: inline;
+}
+
+#client-infos input[type="email"], #client-infos input[type="password"] {
+      width: 60%;
+      background-color: #D4ECFF;
+      border-radius: 5%;
+      width: 63%;
+}
+.form-group .form-control {
+  width: 63%;
+  display: inline-block;
+}
